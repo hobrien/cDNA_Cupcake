@@ -163,7 +163,7 @@ def main(args):
 
     ### sanity check that input file and input SAM exists
     if not os.path.exists(args.input):
-        print >> sys.stderr, "Input file {0} does not exist. Abort.".format(args.fasta)
+        print >> sys.stderr, "Input file {0} does not exist. Abort.".format(args.input)
         sys.exit(-1)
 
     if not os.path.exists(args.sam):
